@@ -20,6 +20,6 @@ function myDist() {
     //your code goes here
     const avg=40;
     let time= 60 * distance / avg
-    // document.writeln(time);
-    alert(time);
+    document.writeln(time);
+    // alert(time);
 }
