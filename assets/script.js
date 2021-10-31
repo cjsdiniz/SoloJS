@@ -11,3 +11,11 @@ var x = "50";
 var y = "100";
 document.writeln(x+y + `<br/>`);
 
+
+var i=0;
+while (i<=10) {
+    // document.write(i + "<br />");
+    document.write(i + ";");
+    i++;
+}
+document.writeln(`<br/>=======<br/>`);
