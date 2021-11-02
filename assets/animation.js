@@ -7,7 +7,10 @@ var t = setInterval(move, 10);
 
 function move() {
     if (pos >= 150){
-        clearInterval(t);
+        pos = 0;
+        box.style.left += 0 +"px";
+        box.style.top += 50 +"px";
+        //clearInterval(t);
     }
     else{
         //alert("Hi!")
