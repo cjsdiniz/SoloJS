@@ -22,6 +22,11 @@ Use the following methods to create new nodes:
 - ***document.createTextNode(text)*** creates a new text node.
 
 
+
+### Events
+![Events](images/Events.png)
+
+
 ---
 ## Examples
 
