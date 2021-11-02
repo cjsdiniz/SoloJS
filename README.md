@@ -24,7 +24,7 @@ Use the following methods to create new nodes:
 
 
 ### Events
-![Events](images/Events.png)
+![Events](images/Events.png)  
 
 
 ---
