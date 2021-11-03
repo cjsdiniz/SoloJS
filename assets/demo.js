@@ -26,8 +26,21 @@ window.onload = function() {
   var node = document.createTextNode("This is new");
   p.appendChild(node);
 
-  var parent = document.getElementById("demo");
-  var child = document.getElementById("p1");
-  parent.replaceChild(p, child);
+  // var parent = document.getElementById("demo");
+  // var child = document.getElementById("p1");
+  // parent.replaceChild(p, child);
+
+  // alert(x)
+
+  const test = (a, b = 3, c = 42) => {
+    return a + b + c;
+  }
+  console.log(test(5)); //50 
+
+  
 };
+
+// const tr = 
+
+
 
