@@ -4,9 +4,9 @@ class Add {
     }
     //your code goes here
     print(){
-      const  arr = ""; 
-      for (let w of words){
-        arr+="$"+w;
+      let  arr = ""; 
+      for (let w of this.words){
+        arr += "$" + w;
       }
       console.log(arr+"$");
     }
